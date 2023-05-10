@@ -9,4 +9,4 @@ class Desktop(Computador):
         return f"{super().getInformacoes()} | Potência da Fonte: {self._potenciaDaFonte}"
 
     def cadastrar(self):
-        print(" > Desktop cadastrado...")
+        print(" > Desktop cadastrado.")
