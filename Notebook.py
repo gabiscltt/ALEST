@@ -9,4 +9,4 @@ class Notebook(Computador):
         return f"{super().getInformacoes()}, Tempo de Bateria: {self._Notebook__tempoDeBateria}"
 
     def cadastrar(self):
-        print(" > Notebook cadastrado...")
+        print(" > Notebook cadastrado.")
